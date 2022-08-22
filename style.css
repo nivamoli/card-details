@@ -1,0 +1,30 @@
+:root {
+  /* media queries */ 
+  --mobile: 375px; 
+  --desktop: 1440px; 
+
+  
+  /* fuentes */ 
+  --font-family: 'Epilogue', sans-serif;
+  --font-size: 1.8rem;
+  
+  /* colores */ 
+  --morado-claro: hsl(249, 99%, 64%);
+  --morado-oscuro: hsl(278, 94%, 30%);
+  --rojo: hsl(0, 100%, 66%);
+  --blanco: hsl(0, 0%, 100%);
+  --gris-claro: hsl(270, 3%, 87%);
+  --gris-oscuro: hsl(279, 6%, 55%);
+  --negro: hsl(278, 68%, 11%);
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
