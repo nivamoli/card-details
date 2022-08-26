@@ -26,5 +26,42 @@ html {
 body {
   font-family: var(--font-family);
   font-size: var(--font-size);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
+
+/* section card */
+
+.card {
+  position: relative;
+  min-height: 250px;
+  margin-bottom: 120px;
+  background-image: url(./images/bg-main-desktop.png);
+}
+
+.card__image-container {
+  text-align: center;
+  margin: 0;
+}
+
+.card__image-container--image-card-front,
+.card__image-container--image-card-back {
+  width: 80%;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.card__image-container--image-card-front {
+  top: 140px; 
+  left: 20px;
+}
+.card__image-container--image-card-back {
+  top: 40px;
+  left: 50px;
+}
+
+
 
